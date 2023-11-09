@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="nameApp" layoutX="192.0" layoutY="26.0" text="MihailApp" textFill="#ffa000">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputNumber" layoutX="333.0" layoutY="104.0" prefHeight="31.0" prefWidth="153.0" />
+      <Label layoutX="83.0" layoutY="101.0" text="Десятичное число">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.2037914691943128" startX="0.5165876777251185">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.5666666626930237" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.7450980544090271" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="button" layoutX="191.0" layoutY="224.0" mnemonicParsing="false" style="-fx-background-color: orange;" text="Решить задачку">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="choiceSystem" layoutX="333.0" layoutY="144.0" prefHeight="31.0" prefWidth="153.0" />
+      <TextField fx:id="answer" layoutX="333.0" layoutY="185.0" prefHeight="31.0" prefWidth="153.0" AnchorPane.bottomAnchor="105.0" AnchorPane.leftAnchor="333.0" AnchorPane.rightAnchor="114.0" AnchorPane.topAnchor="185.0" />
+      <Label layoutX="105.0" layoutY="135.0" prefHeight="48.0" prefWidth="188.0" text="Выбор системы">
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.2037914691943128" startX="0.5829383886255924">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.5666666626930237" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.7450980544090271" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="176.0" prefHeight="48.0" prefWidth="74.0" text="Ответ">
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.2037914691943128" startX="0.5829383886255924">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.5666666626930237" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.7450980544090271" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <Lighting>
+         <bumpInput>
+            <Shadow height="191.0" radius="86.20750000000001" width="155.83">
+               <color>
+                  <Color red="1.0" />
+               </color>
+            </Shadow>
+         </bumpInput>
+         <light>
+            <Light.Distant />
+         </light>
+      </Lighting>
+   </effect>
+</AnchorPane>
